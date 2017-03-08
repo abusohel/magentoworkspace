@@ -18,3 +18,15 @@ For Ubuntu 64 bit :
 
     sudo ./xampp-linux-x64-7.0.2-1-installer.run
 
+
+ 
+https://www.youtube.com/watch?v=nBda6YRw6ko
+https://www.youtube.com/watch?v=PaBCAyiWb7Q
+
+get for permission
+
+sudo so
+chmod +x htdocs/
+chmod 7777 htdocs/
+
+sudo rmdir filename
