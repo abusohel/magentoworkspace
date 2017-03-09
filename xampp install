@@ -18,6 +18,24 @@ For Ubuntu 64 bit :
 
     sudo ./xampp-linux-x64-7.0.2-1-installer.run
 
+=====================================================
+xammp uninstall
+===========================
+
+
+
+    To Uninstall Xampp, use
+
+    sudo -i
+
+    cd /opt/lampp
+
+    ./uninstall
+
+===========
+sudo /opt/lampp/uninstall
+====
+sudo rm -r /opt/lampp
 
  
 https://www.youtube.com/watch?v=nBda6YRw6ko
@@ -30,3 +48,25 @@ chmod +x htdocs/
 chmod 7777 htdocs/
 
 sudo rmdir filename
+php storm install==================
+https://www.linuxbabe.com/desktop-linux/install-phpstorm-ubuntu-15-10
+
+
+sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp stop
+===================
+sudo /etc/init.d/apache2 stop
+sudo /etc/init.d/mysql stop
+sudo /etc/init.d/proftpd stop
+sudo /opt/lampp/lampp start
+=======================
+
+chmod -R 777 /opt/lampp/htdocs
+====================
+/opt/lampp/htdocs/magento$
+
+sudo chmod 777 var/
+
+problem fix
+==========
+sudo chmod -R a+w /opt/lampp/htdocs/magento/

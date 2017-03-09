@@ -1,0 +1,6 @@
+magento 2 windows
+0e6597baf85f3c06a6704b5d6d58604c
+magento 2 ubuntu
+Encryption Key:
+ef9e8c10e2269be3dab690dad957134f
+
