@@ -1,0 +1,31 @@
+1st way:
+
+1. download devkit from rubyinstaller.org
+2. extract devkit under new folder into there where ruby is installed
+3. now go to "cmd" and go to the directory where devkit has been extracted
+4. now type ruby dk.rb init (if fail then go to the devkit folder then go to config.yml and type the ruby path. ex: -C:/Ruby)
+5. type ruby dk.rb install 
+6. type gem install rails --version 5.0.0
+7. check the version of rails by typing rails -v
+8. now make a folder anywhere and go there by cmd prompt and type rails new "project name"
+9. now go to the project file by cmd prompt and type rails server then go to browser and type localhost:3000. now you will able to see to your project web.
+
+
+2nd way:
+
+1. download railsinstaller from http://railsinstaller.org/en
+2. install the file
+3. now complete rails environment by your git username and pass
+4. type gem install bundler
+5. type gem install rails --version 5.0.0
+6. now type rails -v. if you notice "The system can not find the path specified" then go to C> railsinstaller> ruby23> bin> rails.bat by click then erase whole code from rails.bat and paste "@ECHO OFF
+IF NOT "%~f0" == "~f0" GOTO :WinNT
+ECHO.This version of Ruby has not been built with support for Windows 95/98/Me.
+GOTO :EOF
+:WinNT
+@"%~dp0ruby.exe" "%~dpn0" %*
+"
+7. now cheack rails version in cmd by typing ;;rails -v;;
+8. now crate a project by typing ''rails new "first_app"'' in cmd.
+9. now go to the project file by cmd prompt and type bundle install.(cd first_app)(''bundler exec rails server'')
+10. type rails server then go to browser and type localhost:3000. now you will able to see to your project web.
